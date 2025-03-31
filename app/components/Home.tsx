@@ -25,14 +25,14 @@ const Home: React.FC = () => {
       <main className='relative min-h-screen flex items-center justify-center'>
         {/* Background Image */}
         <div className='absolute inset-0 w-full h-full -z-10'>
-          {/* <Image
+          <Image
             src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
             alt="Background"
             fill
             className='object-cover'
             priority
             sizes="100vw"
-          /> */}
+          />
           <div className='absolute inset-0 bg-black/40' /> {/* Overlay */}
         </div>
 
