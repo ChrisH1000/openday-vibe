@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+
+- Always use Typescript when generating JS code.
+- Write tests for all descrete functionality.
