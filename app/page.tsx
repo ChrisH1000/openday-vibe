@@ -5,12 +5,7 @@ import { redirect } from 'next/navigation';
 import App from './components/App'
 
 export default function Home() {
-  const { data: session, status } = useSession({
-    required: true,
-    onUnauthenticated() {
-      redirect('/auth/signin');
-    },
-  });
+  const { data: session, status } = useSession();
 
   // If user is authenticated, redirect based on role
   if (status === 'authenticated') {
@@ -21,6 +16,6 @@ export default function Home() {
     }
   }
 
-  // Show loading state while checking authentication
+  // Show landing page for unauthenticated users
   return <App />
 }
