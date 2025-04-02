@@ -4,7 +4,6 @@ node_modules
 dist
 dist-ssr
 *.local
-.env
 
 # logs
 logs
@@ -30,3 +29,5 @@ lerna-debug.log*
 .next
 out
 build
+.env
+placeholder-data.js
